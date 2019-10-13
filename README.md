@@ -1,1 +1,1 @@
-gcc -o tabela_hash tabela_hash.c sources/main.c headers/tabela_hash.h sources/tabela_hash.c headers/cliente.h sources/cliente.c headers/tratamento_colisao.h sources/tratamento_colisao.c headers/metodo_hash.h sources/metodo_hash.c headers/arquivo.h sources/arquivo.c
+gcc -o tabela_hash sources/main.c sources/tabela_hash.c sources/cliente.c sources/tratamento_colisao.c sources/metodo_hash.c sources/arquivo.c
